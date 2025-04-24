@@ -1,0 +1,38 @@
+main {
+  display: flex;
+  justify-content: space-between;
+
+  h1 {
+    max-width: 636px;
+    max-height: 304px;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    color: $primaryColor;
+    margin-top: 220px;
+  }
+  img {
+    width: 250px;
+    height: 250px;
+    border-radius: 120px;
+    margin-top: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0px 24px;
+    text-align: center;
+    // row-gap: 30px;
+    .main-content {
+      .text-content {
+        h1 {
+          font-size: 36px;
+        }
+      }
+    }
+  }
+}

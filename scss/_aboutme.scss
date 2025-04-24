@@ -1,0 +1,30 @@
+.about-me {
+  margin-top: 215px;
+  margin-bottom: 100px;
+  .about-me-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 26px;
+    color: $primaryColor;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  .about-me-text {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 26px;
+    color: $secondaryColor;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-me {
+    .about-me-title {
+      text-align: center;
+    }
+    .about-me-text {
+      text-align: center;
+      margin: 0px auto;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.skills-section {
+  margin-top: 339px;
+
+  .skills-title {
+    h2 {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 26px;
+      color: $primaryColor;
+      text-align: center;
+    }
+    p {
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 26px;
+      color: $secondaryColor;
+      margin-top: 49px;
+      text-align: center;
+    }
+  }
+  .skills-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 140px;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-section {
+    .skills-wrapper {
+      flex-wrap: wrap;
+      img {
+        width: calc(48% - 5px);
+      }
+    }
+  }
+}

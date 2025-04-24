@@ -1,0 +1,209 @@
+.projects {
+  display: flex;
+  justify-content: space-between;
+  row-gap: 50px;
+  margin-top: 96px;
+  .project-1 {
+    max-width: 375px;
+    max-height: 567px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 100px -1px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 1px 2px 100px -1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 2px 100px -1px rgba(0, 0, 0, 0.2);
+    .image-container {
+      width: 100%;
+      height: 260px;
+      border-radius: 20px 20px 0px 0px;
+      background-image: url("../images/project-1.png");
+      background-size: cover;
+      background-position: center;
+      margin-bottom: 27px;
+    }
+    .text-container {
+      padding: 0px 17px 25px 17px;
+      h3 {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 26px;
+        color: #000;
+        margin-bottom: 17px;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 26px;
+        color: $secondaryColor;
+        margin-bottom: 12px;
+      }
+      .tech-stack {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+        color: $primaryColor;
+      }
+      .highlighted {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: $primaryColor;
+      }
+      .project-links {
+        margin: 0px auto;
+
+        a {
+          text-decoration: underline;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 26px;
+          color: #000;
+        }
+        .link-preview {
+          margin-right: 48px;
+        }
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+  .project-2 {
+    max-width: 375px;
+    max-height: 567px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 100px -1px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 1px 2px 100px -1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 2px 100px -1px rgba(0, 0, 0, 0.2);
+    .image-container {
+      width: 100%;
+      height: 260px;
+      border-radius: 20px 20px 0px 0px;
+      background-image: url(../images/project-2.png);
+      background-size: cover;
+      background-position: center;
+      margin-bottom: 27px;
+    }
+    .text-container {
+      padding: 0px 17px 25px 17px;
+      h3 {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 26px;
+        color: #000;
+        margin-bottom: 17px;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 26px;
+        color: $secondaryColor;
+        margin-bottom: 12px;
+      }
+      .tech-stack {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+        color: $primaryColor;
+      }
+      .highlighted {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: $primaryColor;
+      }
+      .project-links {
+        margin: 0px auto;
+
+        a {
+          text-decoration: underline;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 26px;
+          color: #000;
+        }
+        .link-preview {
+          margin-right: 48px;
+        }
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+  .project-3 {
+    max-width: 375px;
+    max-height: 567px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 100px -1px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 1px 2px 100px -1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 2px 100px -1px rgba(0, 0, 0, 0.2);
+    .image-container {
+      width: 100%;
+      height: 260px;
+      border-radius: 20px 20px 0px 0px;
+      background-image: url(../images/project-3.png);
+      background-size: cover;
+      background-position: center;
+      margin-bottom: 27px;
+    }
+  }
+  .text-container {
+    padding: 0px 17px 25px 17px;
+    h3 {
+      font-size: 28px;
+      font-weight: 500;
+      line-height: 26px;
+      color: #000;
+      margin-bottom: 17px;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 26px;
+      color: $secondaryColor;
+      margin-bottom: 12px;
+    }
+    .tech-stack {
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 26px;
+      color: $primaryColor;
+    }
+    .highlighted {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      color: $primaryColor;
+    }
+    .project-links {
+      margin: 0px auto;
+
+      a {
+        text-decoration: underline;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #000;
+      }
+      .link-preview {
+        margin-right: 48px;
+      }
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 24px;
+    text-align: center;
+  }
+}
